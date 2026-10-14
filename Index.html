@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAN GHOST APP</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #080808, #191933, #001b25);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 35px 10px;
+      background: #101010;
+      border-bottom: 2px solid #00ffff;
+    }
+
+    h1 {
+      color: #00ffff;
+      text-shadow: 0 0 15px #00ffff;
+      font-size: 32px;
+    }
+
+    .card {
+      margin: 35px 20px;
+      padding: 25px 15px;
+      background: #171727;
+      border: 1px solid #00ffff;
+      border-radius: 18px;
+      box-shadow: 0 0 15px #003b44;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #dddddd;
+    }
+
+    button {
+      background: #00ffff;
+      color: #000;
+      padding: 13px 25px;
+      border: none;
+      border-radius: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 12px;
+    }
+
+    button:active {
+      transform: scale(0.96);
+    }
+
+    footer {
+      padding: 20px;
+      color: #aaaaaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>AMAN GHOST 👻</h1>
+    <p>Welcome to my official website!</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🔥 AMAN GHOST APP 🔥</h2>
+      <p>
+        Hello friends! Welcome to Aman Ghost.
+        Meri website par aapka swagat hai.
+      </p>
+
+      <button onclick="welcomeMessage()">
+        CLICK HERE
+      </button>
+
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    Made with ❤️ by Aman
+  </footer>
+
+  <script>
+    function welcomeMessage() {
+      document.getElementById("message").textContent =
+        "Welcome to AMAN GHOST! 👻🔥";
+    }
+  </script>
+
+</body>
+</html>
